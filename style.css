@@ -1,0 +1,268 @@
+/*
+Name: Lai Kok Wui
+Student ID: 101211447
+Date: 20 November 2020
+*/
+
+/* Html */
+html {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #5CDB95;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header h1 {
+    font-size: 36px;
+    color: #05386B;
+    font-weight: 900;
+}
+
+/* Header navigation bar */
+.header_nav ul {
+    text-align: center;
+}
+
+.header_nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #05386B;
+    font-weight: bold;
+}
+
+.header_nav ul li a:hover {
+    color: #EDF5E1;
+}
+
+/* article */
+article {
+    flex: 1 0 auto;
+}
+
+/* footer style */
+footer {
+    flex-shrink: 0;
+    background-color: #05386B;
+    padding: 15px;
+}
+
+/* footer navigation bar */
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #EDF5E1;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: #BEE4AF;
+}
+
+/* error message */
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* success message */
+.success {
+    color: green;
+    text-align: center;
+}
+
+/* home page disclaimer box */
+.disclaimer {
+    border: 2px solid #379683;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #BEE4AF;
+    font-size: 18px;
+    width: 70%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* home page background image */
+.home {
+    background-image: url(images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* message box for showing all the error or success message */
+.message {
+    border: 2px solid #379683;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #BEE4AF;
+    width: 20%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 2px;
+}
+
+.message p {
+    margin: 2px;
+    font-size: 16px;
+}
+
+/* about page box */
+.about {
+    border: 2px solid #379683;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #BEE4AF;
+    text-align: left;
+    width: 70%;
+    margin-top: 10%;
+    padding: 20px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about ul {
+    margin-left: 20%;
+}
+
+.abouts {
+    background-image: url(images/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* form style */
+article form {
+    border: 2px solid #379683;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #BEE4AF;
+    text-align: left;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+form h2, .about h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+form label, form input {
+    margin-left: 25%;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form input {
+    border: none;
+    border-bottom: 2px solid #379683;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #BEE4AF;
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #05386B;
+    background-color: #EDF5E1;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    border: 1px solid #379683;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+}
+
+.form {
+    background-image: url(images/login.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* table style */
+table {
+    border: 2px solid #379683;
+    background-color: #EDF5E1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, tr, td {
+    margin: 0px;
+    border: 2px solid #379683;
+    padding: 10px;
+}
+
+/* link under the table */
+.current {
+    text-decoration: none;
+}
+
+/* content box for friendlist.php and friendadd.php */
+.content {
+    border: 1px solid #379683;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #BEE4AF;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.logout {
+    margin-left: 40%;
+}
+
+.friend {
+    background-image: url(images/friend.jpg);
+    background-position: center;
+    background-size: cover;
+}
